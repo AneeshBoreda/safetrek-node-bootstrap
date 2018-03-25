@@ -69,7 +69,7 @@ const CLIENT_SECRET = env.CLIENT_SECRET || ''
 // Enter where you want to redirect after retrieving your 'access_token' and 'refresh_token'.
 // Should have a trailing slash. Read from environment if not set below.
 // For debugging, you can set this to be a RequestBin URL from https://requestb.in
-const REDIRECT_URL = ''
+const REDIRECT_URL = 'SafeAndSound://'
 
 // OAuth demo URL. Will be used as REDIRECT_URL if none is provided.
 const DEMO_URL = '/'
